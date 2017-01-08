@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    min-height: 100%;
+    margin:0px;
+    padding:0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-color:#000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+h2 {
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #666666;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.spotlight {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-blue {
+    border-radius: 5px;
+    background-color:#1a437c;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 25px;
+    width: 30%;
+    text-align:center;
+}
+
+#profile-image {
+    float:left;
+    margin:0px;
+    padding:0px;
+    background: url('andrewsiemer.jpg');
+    background-size:cover;
+    background-position: center;
+    height:100%;
+    width:66%;
+}
+
+.profile-information-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#profile-information {
+    padding-left:60px;
+    padding-right:60px;
+    width:100%;
+    flex-direction: column;
+
+    font-size: 14px;
+    font-style: normal;
+    font-family: sans-serif;
+    line-height: 22px;
+    font-weight: normal;
+    color: #666666;
+}
+
+#profile-information h1 {
+    color: #000000;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.tags {
+    font-size: 14px;
+    font-style: normal;
+    color: #9f9f9f; 
+    font-family: sans-serif;
+}
+
+.work-education{
+    color: #666666;
+    font-size: 14px;
+}
+
+.work-education th {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.work{
+    padding-right:20px;
+}
